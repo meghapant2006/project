@@ -157,16 +157,16 @@ function App() {
               </button>
               
                 <div className="flex space-x-3">
-                <a href="https://github.com/meghapant2006" className={`${themeClasses.textSecondary} hover:text-purple-500 transition-colors`}>
+                <a href="https://github.com/meghapant2006" target="_blank" rel="noopener noreferrer" className={`${themeClasses.textSecondary} hover:text-purple-500 transition-colors`}>
                   <Github size={20} />
                 </a>
-                <a href="mailto:pantmegha195@gmail.com" className={`${themeClasses.textSecondary} hover:text-red-500 transition-colors`}>
+                <a href="mailto:pantmegha195@gmail.com" target="_blank" rel="noopener noreferrer" className={`${themeClasses.textSecondary} hover:text-red-500 transition-colors`}>
                   <Mail size={20} />
                 </a>
-                <a href="https://www.linkedin.com/in/meghapant2006/" className={`${themeClasses.textSecondary} hover:text-blue-600 transition-colors`}>
+                <a href="https://www.linkedin.com/in/meghapant2006/" target="_blank" rel="noopener noreferrer" className={`${themeClasses.textSecondary} hover:text-blue-600 transition-colors`}>
                   <Linkedin size={20} />
                 </a>
-                <a href="https://www.instagram.com/_megha_pant_/" className={`${themeClasses.textSecondary} hover:text-pink-500 transition-colors`}>
+                <a href="https://www.instagram.com/_megha_pant_/" target="_blank" rel="noopener noreferrer" className={`${themeClasses.textSecondary} hover:text-pink-500 transition-colors`}>
                   <Instagram size={20} />
                 </a>
               </div>
@@ -441,6 +441,8 @@ function App() {
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <a 
                   href="https://www.linkedin.com/in/meghapant2006/" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
                   className={`${themeClasses.cardBg} hover:bg-blue-600/10 border ${themeClasses.cardBorder} hover:border-blue-500/50 rounded-lg p-6 text-center transition-all duration-300 group`}
                 >
                   <Linkedin className="text-blue-600 mx-auto mb-4 group-hover:scale-110 transition-transform" size={40} />
@@ -449,6 +451,8 @@ function App() {
                 
                 <a 
                   href="mailto:pantmegha195@gmail.com" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
                   className={`${themeClasses.cardBg} hover:bg-red-600/10 border ${themeClasses.cardBorder} hover:border-red-500/50 rounded-lg p-6 text-center transition-all duration-300 group`}
                 >
                   <Mail className="text-red-500 mx-auto mb-4 group-hover:scale-110 transition-transform" size={40} />
@@ -457,6 +461,8 @@ function App() {
                 
                 <a 
                   href="https://github.com/meghapant2006" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
                   className={`${themeClasses.cardBg} hover:bg-purple-600/10 border ${themeClasses.cardBorder} hover:border-purple-500/50 rounded-lg p-6 text-center transition-all duration-300 group`}
                 >
                   <Github className="text-purple-500 mx-auto mb-4 group-hover:scale-110 transition-transform" size={40} />
@@ -465,6 +471,8 @@ function App() {
                 
                 <a 
                   href="https://www.instagram.com/_megha_pant_/" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
                   className={`${themeClasses.cardBg} hover:bg-pink-600/10 border ${themeClasses.cardBorder} hover:border-pink-500/50 rounded-lg p-6 text-center transition-all duration-300 group`}
                 >
                   <Instagram className="text-pink-500 mx-auto mb-4 group-hover:scale-110 transition-transform" size={40} />
