@@ -59,7 +59,7 @@ function App() {
       title: 'Nike Website Clone',
       description: 'Full-stack e-commerce solution with React, Node.js, and Stripe integration',
       tech: ['React', 'Node.js', 'MongoDB'],
-      image: '../public/Screenshot 2025-09-12 222937.png',
+      image: 'https://meghapant.vercel.app/1.png',
       livepreview: 'https://nikeshoeee.netlify.app/'
     },
     {
