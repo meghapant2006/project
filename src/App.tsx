@@ -59,21 +59,21 @@ function App() {
       title: 'Nike Website Clone',
       description: 'Full-stack e-commerce solution with React, Node.js, and Stripe integration',
       tech: ['React', 'Node.js', 'MongoDB'],
-      image: 'https://meghapant.vercel.app/1.png',
+      image: 'https://meghapant.me/1.png',
       livepreview: 'https://nikeshoeee.netlify.app/'
     },
     {
       title: 'IME Website',
       description: 'Collaborative task management application with real-time updates',
       tech: ['Vue.js', 'Express', 'Socket.io', 'PostgreSQL'],
-      image: 'https://meghapant.vercel.app/2.png',
+      image: 'https://meghapant.me/2.png',
       livepreview: 'https://imewebsitee.netlify.app/'
     },
     { 
       title: 'AI Advanced Virtual Assistant',
       description: 'Data visualization dashboard with interactive charts and reports',
       tech: ['React', 'D3.js', 'Python', 'FastAPI'],
-      image: 'https://meghapant.vercel.app/3.png',
+      image: 'https://meghapant.me/3.png',
       livepreview: 'https://virtualassist.netlify.app/'
     }
   ];
@@ -182,7 +182,7 @@ function App() {
             <div className="mb-8">
               <div className="w-48 h-48 mx-auto mb-6 rounded-full bg-gradient-to-r from-blue-500 to-purple-600 p-1">
                 <img
-                  src="https://meghapant.vercel.app/photo.jpg"
+                  src="https://meghapant.me/photo.jpg"
                   alt="Profile"
                   className="w-full h-full object-cover rounded-full shadow-lg"
                 />
